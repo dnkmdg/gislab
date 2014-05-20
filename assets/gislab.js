@@ -452,7 +452,7 @@ var initMap = function(geojson) {
       markers.push(marker);
       
       var circle = L.circle([f.properties.lonlat[1], f.properties.lonlat[0]], f.properties.height / 4, {
-        color: 'red',
+        color: '#ff7800',
         fillColor: f.properties.color,
         fillOpacity: 0.5
       }).bindPopup(popup);
@@ -462,7 +462,7 @@ var initMap = function(geojson) {
       circles.push(circle);
       circles.push(dot);
       
-      $(".info").append('<div>' + '<img src="' + json_users['results'][count].user.picture + '"><p>' + json_users['results'][count].user.name.first + ' ' + json_users['results'][count].user.name.last + '<br><small>Tweets: ' + f.properties.height + '</small></p></div>');
+      $(".info").append('<div>' + '<img src="' + json_users['results'][count].user.picture + '"><p>' + json_users['results'][count].user.name.first + ' ' + json_users['results'][count].user.name.last + '<small>Tweets: ' + f.properties.height + '</small></p></div>');
       count += 1;
    }
   });
