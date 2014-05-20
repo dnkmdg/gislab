@@ -429,7 +429,7 @@ var initMap = function(geojson) {
   markerLayer = new L.FeatureGroup(),
   markers = [],
   LeafIcon = L.icon({
-    iconUrl: 'marker.png',
+    iconUrl: 'assets/marker.png',
     iconSize: [25, 25],
     iconAnchor: [13, 25],
     popupAnchor: [0, -25]
