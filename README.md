@@ -7,6 +7,6 @@ It's built with Leaflet, OSM, OSM Buildings and some lightly edited raw data fro
 
 Sources:
 
-[OpenStreetMap](http://osm.org/)
-[OSM Buildings](http://http://osmbuildings.org/)
-[Leaflet](http://leafletjs.com/)
+[OpenStreetMap](http://osm.org/),
+[OSM Buildings](http://http://osmbuildings.org/),
+[Leaflet](http://leafletjs.com/).
